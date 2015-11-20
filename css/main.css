@@ -12,9 +12,30 @@ html{
 .navbar{
 	width:100%;
 	position:fixed;
+	top: 0;
 	overflow: auto;
 	display: inline;
+	background-color: white;
+	opacity: 0.9;
+	z-index: 5;
+}
 
+.nav-dots {
+	position: fixed;
+	top: 50px;
+	width: 50px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: #cccccc;
+}
+
+.dot.active {
+	background-color: #CC5B4E;
 }
 
 li{
@@ -27,14 +48,25 @@ li{
  #logo{
  	float:left;
  }
-
+ 
 .slide {
-	position: absolute;
+	width:100%;
+	height: 100vh;
+	display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .front-page{
-	width:100%;
 	text-align: center;
+}
+
+.slide .contents {
+	align-self: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
 #loop{
@@ -57,7 +89,190 @@ p{
 	line-height: 24px;
 }
 
-.slide-image {
-	width: 50%;
-	margin-left: 25%;
+#story-title {
+	font-size: 50px;
+  font-weight: 100;
+  width: 100%;
 }
+
+.description {
+	text-align: center;
+	margin-left: 40%;
+	width: 20%;
+	margin-bottom: 50px;
+}
+
+.description div {
+}
+
+.text-box {
+	width: 30%;
+	height: 200px;
+	line-height: 200px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto;
+	text-align: center;
+	border-style: dashed;
+	border-color: black;
+	border-width: 2px;
+	opacity: 0.8;
+}
+
+.text-box.no-dashed {
+	border-style: solid;
+}
+
+.text-box.no-outline {
+	border: none;
+}
+
+.center-float-text {
+	position: absolute;
+	top: 60px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto auto;
+	text-align: center;
+	line-height: 200px;
+	height: 200px;
+}
+
+.center-float-text span {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+.text-s1 {
+	top: 250px;
+}
+
+.text-box span {
+	display: inline-block;
+  vertical-align: middle;
+  line-height: normal;  
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.story2 {
+	/*width: 400px !important;*/
+}
+
+.pop-up-text {
+	text-align: left;
+}
+
+.text1 {
+	  position: absolute;
+    top: 50px;
+    width: 300px;
+    left: 60%;
+    font-size: 125%;
+}
+
+.text1 .dot {
+	background-color: #F6AE37;
+}
+
+.text2 {
+	  position: absolute;
+    top: 200px;
+    width: 300px;
+    left: 13%;
+    font-size: 125%;
+}
+
+.text2 .dot {
+	background-color: #CC5B4E;
+}
+
+.text3 {
+	position: absolute;
+	bottom: -150px;
+	width: 300px;
+	left: 50%;
+	font-size: 125%;
+}
+
+.text3 .dot {
+	background-color: #57AADF;
+}
+
+.slide.story2 {
+	height: none;
+}
+
+.slide.story2 .contents {
+	align-self: initial;
+}
+
+.slide.story2 .contents .description {
+	margin-bottom: 100px;
+}
+
+.text4 {
+	position: absolute;
+	top: 30%;
+	width: 400px;
+	left: 60%;
+}
+
+.text4-img {
+	top: 25%;
+	left: 13%;
+	position: absolute;
+}
+
+.text5 .dot {
+	background-color: #F6AE37;
+}
+
+.text5 {
+	position: absolute;
+	top: 54%;
+	width: 400px;
+	left: 18%;
+}
+
+.text5-img {
+	top: 50%;
+	left: 60%;
+	position: absolute;
+}
+
+.text4 .dot {
+	background-color: #CC5B4E;
+}
+
+.text6 {
+	position: absolute;
+	top: 78%;
+	width: 400px;
+	left: 60%;
+}
+
+.text6 .dot {
+	background-color: #57AADF;
+}
+
+.text6-img {
+	position: absolute;
+	top: 75%;
+	left: 19%;
+}
+
+.text7 {
+	position: absolute;
+	top: 105%;
+	width: 400px;
+	left: 18%;
+}
+

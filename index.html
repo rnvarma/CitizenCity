@@ -5,46 +5,187 @@
 
 		<title>CitizenCity</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<meta name="viewport" content="initial-scale=1">
 
 	</head>
 
 	<body lang="en">
-		<div class="body-container">
-			<header>
-				<div class="navbar">
-					<nav>
-							<ul>
-								<li id="logo">
-									<img src="images/logo.png" height="25" >
-								</li>
-								<li><img src="images/instagram.png" height="20" ></li>
-								<li><img src="images/facebook.png" height="20"></li>
-								<li><img src="images/twitter.png" height="20"></li>
-								<li><img src="images/calendar.png" height="20"></li>
-							</ul>
-					</nav>
-				</div>
-			</header>
+		<div class="navbar">
+			<nav>
+					<ul>
+						<a href="#front-page"><li id="logo">
+							<img src="images/logo.png" height="25" >
+						</li></a>
+						<li><img src="images/instagram.png" height="20" ></li>
+						<li><img src="images/facebook.png" height="20"></li>
+						<li><img src="images/twitter.png" height="20"></li>
+						<li><img src="images/calendar.png" height="20"></li>
+					</ul>
+			</nav>
+		</div>
 
-			<div class="slide current front-page" data-order="1" data-start-top="500">
+		<div class="nav-dots">
+			<a href="#story1"><div class="dot active"></div></a>
+			<a href="#story2"><div class="dot"></div></a>
+			<a href="#woo"><div class="dot"></div></a>
+		</div>
+
+		<div id="front-page" class="slide current front-page">
+			<div class="contents">
 				<img src="images/front-img.png" width="100%">
-				<p>forges collaborative space and common ground for </br> people commited to making social impact.</p>
+					<p>forges collaborative space and common ground for </br> people commited to making social impact.</p>
 				<div id="loop"><p>get looped in</p></div>
 			</div>
+		</div>
 
-			<div class="slide" data-order="2">
-				<img src="images/story1.png" class="slide-image">
+		<div id="story1" class="slide story1">
+			<div class="contents">
+				<h1 id="story-title">Our Story</h1>
+				<div class="description">
+					<p>Pittsburgh has an existing network of people committed to lives and careers of social impact</p>
+				</div>
+				<img src="images/story1.png" width="60%">
+				<div data-wow-delay="0.5s" class="text-box text-s1 wow fadeIn">
+					<span><p>However this community is lacking a shared space.</p></span>
+				</div>
 			</div>
+		</div>
 
-			<div class="slide" data-order="3">
-				<img src="images/story2.png" class="slide-image">
+		<div class="slide">
+			<div class="contents">
+				<img src="images/white.png" width="45%">
+				<div data-wow-delay="0.5s" class="text-box wow fadeIn">
+					<span><p>Our goal is to establish such a space to bring people and ideas to.</p></span>
+				</div>
 			</div>
+		</div>
 
-		</div> <!--body-container div-->
+		<div class="slide">
+			<div class="contents">
+				<img src="images/story2.png" width="45%">
+				<div class="pop-up-text wow fadeIn" data-wow-delay="0.5s">
+					<div class="text1">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+
+				<div class="pop-up-text wow fadeIn" data-wow-delay="1.2s">
+					<div class="text2">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+
+				<div class="pop-up-text wow fadeIn" data-wow-delay="1.9s">
+					<div class="text3">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="contents">
+				<img src="images/white.png" width="45%">
+				<div data-wow-delay="0.5s" class="text-box no-dashed wow fadeIn">
+					<span><p>CitizenCity will provide the physical space neccessary for connecting communities.</p></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="contents">
+				<img src="images/story3.png" width="40%">
+				<div data-wow-delay="0.5s" class="text-box no-outline wow fadeIn">
+					<span><p>CitizenCity will create a catalyst for new ideas.</p></span>
+				</div>
+			</div>
+		</div>
+
+		<div id="story2" class="slide story2">
+			<div class="contents">
+				<h1 id="story-title">Our Roadmap</h1>
+				<div class="description">
+					<p>Possible procured her trifling laughter thoughts property she met way.</p>
+				</div>
+				<img src="images/roadmap.png" width="25%">
+
+				<div class="pop-up-text">
+					<div class="text4 wow fadeIn" data-wow-delay="0.5s">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+
+				<div class="text4-img wow fadeIn" data-wow-delay="1s">
+					<img src="images/roadmap-connect.png" width="25%">
+				</div>
+
+				<div class="pop-up-text">
+					<div class="text5 wow fadeIn" data-wow-delay="1.5s">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+
+				<div class="text5-img wow fadeIn" data-wow-delay="2s">
+					<img src="images/roadmap-share.png" width="25%">
+				</div>
+
+				<div class="pop-up-text" data-wow-delay="1s">
+					<div class="text6 wow fadeIn" data-wow-delay="2.5s">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+
+				<div class="text6-img wow fadeIn" data-wow-delay="3s">
+					<img src="images/roadmap-educate.png" width="25%">
+				</div>
+
+				<div class="pop-up-text">
+					<div class="text7 wow fadeIn">
+						<div class="dot" style="float:left;margin-bottom:70px;"></div>
+						Dinner to beyond regret wished an branch remain bed but expect suffer little repair
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/wow.js"></script>
 		<script src="js/index.js"></script>
+		<script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          $("a[href*=#]:not([href=#])").removeClass("active");
+          $(this).addClass("active");
+          var hash = this.hash
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              window.location.hash = hash;
+            });
+            return false;
+          }
+        }
+      });
+    });
+    $(document).ready(function() {
+      var hash = window.location.hash;
+      hash = hash.substr(1, hash.length)
+      if (hash) {
+        $(".dfa-navbar-text." + hash).addClass("active");
+      }
+    })
+  </script>
 	</body>
 
 </html>

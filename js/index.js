@@ -39,22 +39,10 @@ function handleScroll() {
 var SET = false;
 
 function main(x) {
-	// moveCurrentToView()
-	// $(window).scroll(handleScroll)
-	// $(window).scroll(function() {
-	// 	var st = $(window).scrollTop();
-	// 	var wh = $(window).height()
-	// 	var pos = $("#story-title").offset().top;
-	// 	console.log(pos, wh);
-	// 	var top = pos - wh;
-	// 	if (!SET && st > wh) {
-	// 		$("#story-title").css("position", "fixed").css("top", top + "px");
-	// 		SET = true;
-	// 	} else if (SET) {
-	// 		$("#story-title").css("position", "relative").css("top", "initial");
-	// 		SET = false;
-	// 	}
-	// })
+	$(".navdot").click(function() {
+		$(".navdot.active").removeClass("active");
+		$(this).addClass("active")
+	})
 }
 
 $(document).ready(main)

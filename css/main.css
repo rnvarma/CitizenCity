@@ -276,3 +276,56 @@ p{
 	left: 18%;
 }
 
+.text8 {
+	position: absolute;
+	top: 32%;
+	width: 200px;
+	left: 17%;
+	text-align: center;
+}
+
+.text8 .dot {
+	background-color: #57AADF;
+}
+
+.text9 {
+	position: absolute;
+	top: 82%;
+	width: 200px;
+	left: 17%;
+	text-align: center;
+}
+
+.text9 .dot {
+	background-color: #57AADF;
+}
+
+.text10 {
+	position: absolute;
+	top: 82%;
+	width: 200px;
+	left: 70%;
+	text-align: center;
+}
+
+.text10 .dot {
+	background-color: #57AADF;
+}
+
+.text11 {
+	position: absolute;
+	top: 32%;
+	width: 200px;
+	left: 68%;
+	text-align: center;
+}
+
+.text11 .dot {
+	background-color: #57AADF;
+}
+
+.header {
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-bottom: 15px;
+}
